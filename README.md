@@ -10,7 +10,7 @@ Secara basic:
 
 Dari perspective engineer, anggaplah ini hanya sebuah CRUD.
 
-Temen kerja backend-mu akan siapkan RESTful API, tetapi mereka telat.
+Temen kerja backend-mu akan siapkan RESTful API, namun mereka telat.
 Tetapi kamu harus tetap mendemokan fitur-fitur selama API tersebut masih di bangun.
 Tim kamu memutuskan bahwa API-nya akan di mock-up dulu. Sebagai frontend developer yang sangat jago,
 ini menjadi tanggung jawab kamu.
