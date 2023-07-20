@@ -18,7 +18,7 @@ ini menjadi tanggung jawab kamu.
 Ini adalah stack frontend yang kamu harus gunakan untuk proyek ini:
 
 - Vue/React
-- Vuex/Redux
+- ~~Vuex~~Pinia/Redux
 
 _Hint_: Ada backend CRUD otomatis online: <br/>
 https://crudcrud.com/
