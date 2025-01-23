@@ -27,7 +27,7 @@ https://storetest.oreo.paintpro.co.id/app
 Seluruh tim telah setuju dengan beberapa spek dan limitasi teknikal:
 
 - Semua payload untuk request dan response adalah JSON.
-- Ada data sekitar 100 produk yang butuh di manage, gunakan teknik paginasi.
+- Ada data sekitar 50 produk yang butuh di manage, gunakan teknik paginasi. (gunakan fitur import product jika product kurang dari 50)
 - Halaman-halaman yang ditetapkan:
   - Pelanggan dapat Register & Signin
   - Pelanggan dapat menambah alamat pengiriman
