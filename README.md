@@ -6,9 +6,8 @@ Sebuah toko klontong ingin masuk ke abad 21, mereka ingin menjual barang mereka 
 
 Secara basic:
 
-> Sebagai anak owner toko klontong, saya butuh mengatur barang yang kami jual di sebuah table.
+> Sebagai anak owner toko klontong, saya ingin membawa toko saya untuk dapat melayani lewat internet.
 
-Dari perspective engineer, anggaplah ini hanya sebuah CRUD.
 
 Temen kerja backend-mu akan siapkan RESTful API, namun mereka telat.
 Tetapi kamu harus tetap mendemokan fitur-fitur selama API tersebut masih di bangun.
@@ -20,39 +19,24 @@ Ini adalah stack frontend yang kamu harus gunakan untuk proyek ini:
 - Vue
 - ~~Vuex~~Pinia
 
-_Hint_: Ada backend CRUD otomatis online: <br/>
-https://crudcrud.com/
+_Hint_: Gunakan Headless CMS storetest: <br/>
+https://storetest.oreo.paintpro.co.id/app
 
 ### More technical details
 
 Seluruh tim telah setuju dengan beberapa spek dan limitasi teknikal:
 
 - Semua payload untuk request dan response adalah JSON.
-- Ada skema data.
 - Ada data sekitar 100 produk yang butuh di manage, gunakan teknik paginasi.
 - Halaman-halaman yang ditetapkan:
-  - List semua produk
-  - Detil produk
-  - Tambah produk
+  - Pelanggan dapat Register & Signin
+  - Pelanggan dapat menambah alamat pengiriman
+  - Pelanggan bisa melihat semua produk
+  - Pelanggan bisa melihat Detail produk
+  - Sistem Cart
+  - Cart To Order
+  - Halaman Untuk Melihat Pesanan(Order)
 
-Contoh skema:
-
-```json
-{
-  "id": 86,
-  "CategoryId": 14,
-  "categoryName": "Cemilan",
-  "sku": "MHZVTK",
-  "name": "Ciki ciki",
-  "description": "Ciki ciki yang super enak, hanya di toko klontong kami",
-  "weight": 500,
-  "width": 5,
-  "length": 5,
-  "height": 5,
-  "image": "https://cf.shopee.co.id/file/7cb930d1bd183a435f4fb3e5cc4a896b",
-  "harga": 30000
-}
-```
 
 Jangan lupa, tim kamu bersifat internasional, jadi kerjakan
 sebaik mungkin menggunakan bahasa Inggris.
